@@ -45,19 +45,19 @@ const Category = () => {
   ];
 
   return (
-    <div className="w-full h-[530px] bg-white mt-16 flex justify-center border-b border-[#E4E5E8]">
-      <div className="w-full max-w-[1350px]">
-        <h1 className="text-[#18191C] text-[40px] font-[500] mt-20">
+    <div className="w-full h-[430px] bg-white mt-16 flex justify-center border-b border-[#E4E5E8]">
+      <div className="w-full max-w-[1000px]">
+        <h1 className="text-[#18191C] text-[32px] font-[500] mt-20">
           Popular category
         </h1>
-        <div className="grid grid-cols-4 mt-16 gap-20">
+        <div className="grid grid-cols-4 mt-16 gap-10">
           {categories.map((category, index) => (
             <div key={index} className="flex items-center">
-              <div className="bg-[#E7F0FA] p-4 rounded-md">
-                <img src={category.imageUrl} alt={category.title} />
+              <div className="bg-[#E7F0FA] p-3 rounded-md">
+                <img className="w-5" src={category.imageUrl} alt={category.title} />
               </div>
               <div className="flex flex-col ml-4">
-                <p className="text-[18px] text-[#18191C] font-semibold">
+                <p className="text-[14px] text-[#18191C] font-semibold">
                   {category.title}
                 </p>
                 <p className="mt-2 text-[#767F8C] text-[12px]">

@@ -141,18 +141,18 @@ const Feature = () => {
   ];
 
   return (
-    <div className="w-full h-[1050px] bg-white flex justify-center  border-[#E4E5E8]">
-      <div className="w-full max-w-[1350px]">
-        <h1 className="text-[#18191C] text-[40px] font-[500] mt-20">
+    <div className="w-full h-[950px] bg-white flex justify-center  border-[#E4E5E8]">
+      <div className="w-full max-w-[1000px]">
+        <h1 className="text-[#18191C] text-[32px] font-[500] mt-20">
           Featured job
         </h1>
-        <div className="grid grid-cols-3 mt-16 gap-8">
+        <div className="grid grid-cols-3 mt-16 gap-4">
           {data.map((job, index) => (
             <div
               key={index}
-              className={`w-[424px] h-[170px] ${job.linear ? "bg-custom-gradient" : "bg-white"} shadow-sm border rounded-lg p-5`}
+              className={`w-[324px] h-[140px] ${job.linear ? "bg-custom-gradient" : "bg-white"} shadow-md border rounded-md p-5`}
             >
-              <h1 className="text-[#18191C] text-[18px] font-semibold">
+              <h1 className="text-[#18191C] text-[14px] font-semibold">
                 {job.title}
               </h1>
               <div className="flex items-center mt-2">
@@ -166,14 +166,14 @@ const Feature = () => {
 
               <div className="flex items-center justify-between w-full mt-5">
                 <div className="flex items-center">
-                  <div className="bg-[#EDEFF5] p-4 rounded-md">
-                    <img src={job.companyLogo} alt="Company logo" />
+                  <div className="bg-[#EDEFF5] p-2 rounded-md">
+                    <img className="w-5" src={job.companyLogo} alt="Company logo" />
                   </div>
                   <div className="flex flex-col ml-4">
-                    <p className="">{job.company}</p>
+                    <p className="text-[14px] text-[#18191C] font-semibold">{job.company}</p>
                     <div className="flex items-center">
-                      <img src={job.locationIcon} alt="Location icon" />
-                      <p>{job.location}</p>
+                      <img className="w-3" src={job.locationIcon} alt="Location icon" />
+                      <p className=" text-[#767F8C] text-[12px] ml-1">{job.location}</p>
                     </div>
                   </div>
                 </div>
