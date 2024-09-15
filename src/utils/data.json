@@ -1,0 +1,148 @@
+[
+  {
+    "id": 1,
+    "title": "Technical Support Specialist",
+    "type": "Part-time",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": true
+  },
+  {
+    "id": 2,
+    "title": "Senior UX Designer",
+    "type": "Full-Time",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": true
+  },
+  {
+    "id": 3,
+    "title": "Marketing Officer",
+    "type": "Internship",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": false
+  },
+  {
+    "id": 4,
+    "title": "Junior Graphic Designer",
+    "type": "Internship",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": false
+  },
+
+  {
+    "id": 5,
+    "title": "Interaction Designer",
+    "type": "Part-time",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": false
+  },
+  {
+    "id": 6,
+    "title": "Project Manager",
+    "type": "Full-Time",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": false
+  },
+
+  {
+    "id": 7,
+    "title": "Software Engineer",
+    "type": "Full-Time",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": false
+  },
+  {
+    "id": 8,
+    "title": "Visual Designer",
+    "type": "Full-Time",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": false
+  },
+  {
+    "id": 9,
+    "title": "Project Manager",
+    "type": "Full-Time",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": true
+  },
+  {
+    "id": 10,
+    "title": "Front End Developer",
+    "type": "Part-time",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": false
+  },
+  {
+    "id": 11,
+    "title": "Senior UX Designer",
+    "type": "Full-Time",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": false
+  },
+  {
+    "id": 12,
+    "title": "Marketing Manager",
+    "type": "Internship",
+    "salary": "$20,000 - $25,000",
+    "company": "Google Inc.",
+    "location": "Dhaka, Bangladesh",
+    "companyLogo": "/fitur1.png",
+    "locationIcon": "/fiturmap.png",
+    "saveIcon": "/fitursave.png",
+    "linear": false
+  }
+]
