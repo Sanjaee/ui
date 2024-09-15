@@ -11,133 +11,131 @@ const Feature = () => {
       companyLogo: "/fitur1.png",
       locationIcon: "/fiturmap.png",
       saveIcon: "/fitursave.png",
-      linear: true
+      linear: true,
     },
     {
-        title: "Senior UX Designer",
-        type: "Full-Time",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: true
-      },
-      {
-        title: "Marketing Officer",
-        type: "Internship",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: false
-      },
-      {
-        title: "Junior Graphic Designer",
-        type: "Internship",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: false
-      },
+      title: "Senior UX Designer",
+      type: "Full-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: true,
+    },
+    {
+      title: "Marketing Officer",
+      type: "Internship",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: false,
+    },
+    {
+      title: "Junior Graphic Designer",
+      type: "Internship",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: false,
+    },
 
+    {
+      title: "Interaction Designer",
+      type: "Part-time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: false,
+    },
+    {
+      title: "Project Manager",
+      type: "Full-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: false,
+    },
 
-
-      {
-        title: "Interaction Designer",
-        type: "Part-time",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: false
-      }, {
-        title: "Project Manager",
-        type: "Full-Time",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: false
-      },
-     
-
-      {
-        title: "Software Engineer",
-        type: "Full-Time",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: false
-      },
-      {
-        title: "Visual Designer",
-        type: "Full-Time",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: false
-      },
-      {
-        title: "Project Manager",
-        type: "Full-Time",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: true
-      },
-      {
-        title: "Front End Developer",
-        type: "Part-time",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: false
-      },
-      {
-        title: "Senior UX Designer",
-        type: "Full-Time",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: false
-      },
-      {
-        title: "Marketing Manager",
-        type: "Internship",
-        salary: "$20,000 - $25,000",
-        company: "Google Inc.",
-        location: "Dhaka, Bangladesh",
-        companyLogo: "/fitur1.png",
-        locationIcon: "/fiturmap.png",
-        saveIcon: "/fitursave.png",
-        linear: false
-      },
+    {
+      title: "Software Engineer",
+      type: "Full-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: false,
+    },
+    {
+      title: "Visual Designer",
+      type: "Full-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: false,
+    },
+    {
+      title: "Project Manager",
+      type: "Full-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: true,
+    },
+    {
+      title: "Front End Developer",
+      type: "Part-time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: false,
+    },
+    {
+      title: "Senior UX Designer",
+      type: "Full-Time",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: false,
+    },
+    {
+      title: "Marketing Manager",
+      type: "Internship",
+      salary: "$20,000 - $25,000",
+      company: "Google Inc.",
+      location: "Dhaka, Bangladesh",
+      companyLogo: "/fitur1.png",
+      locationIcon: "/fiturmap.png",
+      saveIcon: "/fitursave.png",
+      linear: false,
+    },
   ];
 
   return (
@@ -150,7 +148,9 @@ const Feature = () => {
           {data.map((job, index) => (
             <div
               key={index}
-              className={`w-[324px] h-[140px] ${job.linear ? "bg-custom-gradient" : "bg-white"} shadow-md border rounded-md p-5`}
+              className={`w-[324px] h-[140px] ${
+                job.linear ? "bg-custom-gradient" : "bg-white"
+              } shadow-md border rounded-md p-5   hover:cursor-pointer hover:shadow-xl hover:transition-all hover:duration-75 hover:scale-105`}
             >
               <h1 className="text-[#18191C] text-[14px] font-semibold">
                 {job.title}
@@ -167,13 +167,25 @@ const Feature = () => {
               <div className="flex items-center justify-between w-full mt-5">
                 <div className="flex items-center">
                   <div className="bg-[#EDEFF5] p-2 rounded-md">
-                    <img className="w-5" src={job.companyLogo} alt="Company logo" />
+                    <img
+                      className="w-5"
+                      src={job.companyLogo}
+                      alt="Company logo"
+                    />
                   </div>
                   <div className="flex flex-col ml-4">
-                    <p className="text-[14px] text-[#18191C] font-semibold">{job.company}</p>
+                    <p className="text-[14px] text-[#18191C] font-semibold">
+                      {job.company}
+                    </p>
                     <div className="flex items-center">
-                      <img className="w-3" src={job.locationIcon} alt="Location icon" />
-                      <p className=" text-[#767F8C] text-[12px] ml-1">{job.location}</p>
+                      <img
+                        className="w-3"
+                        src={job.locationIcon}
+                        alt="Location icon"
+                      />
+                      <p className=" text-[#767F8C] text-[12px] ml-1">
+                        {job.location}
+                      </p>
                     </div>
                   </div>
                 </div>

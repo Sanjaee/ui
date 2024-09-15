@@ -41,61 +41,67 @@ const Testimoni = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
-    pauseOnHover: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: false,
   };
 
   return (
     <div className="w-full h-[552px] flex flex-col items-center justify-center">
-      <h1 className="text-[#18191C] text-[32px] font-[500]">Clients Testimonial</h1>
+      <h1 className="text-[#18191C] text-[32px] font-[500]">
+        Clients Testimonial
+      </h1>
 
       <Slider {...settings} className="w-full max-w-[1000px]">
         {testimonials.map((testimonial, index) => (
-        <div key={index} className="w-full flex justify-center items-center px-2 my-8">
-  <div
-            
-            className="w-full  h-[250px] flex flex-col justify-between bg-white p-5 rounded-lg "
+          <div
+            key={index}
+            className="w-full flex justify-center items-center px-2 my-8"
           >
-            <div className="flex flex-col">
-              {/* bintang */}
-              <div className="flex items-center gap-1">
-                {Array(testimonial.rating)
-                  .fill(0)
-                  .map((_, i) => (
-                    <img key={i} className="w-5" src="/rating.png" alt="Rating" />
-                  ))}
-              </div>
-              <div className="mt-4">
-                <p className="text-[#464D61] text-[14px]">
-                  {testimonial.testimonial}
-                </p>
-              </div>
-            </div>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center">
-                <img
-                  className="rounded-full w-[38px] h-[38px]"
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                />
-                <div className="flex flex-col ml-4">
-                  <p className="text-[#191F33] text-[14px]">
-                    {testimonial.name}
-                  </p>
-                  <p className="text-[#767E94] text-[12px]">
-                    {testimonial.role}
+            <div className="w-full  h-[250px] flex flex-col justify-between bg-white p-5 rounded-lg ">
+              <div className="flex flex-col">
+                {/* bintang */}
+                <div className="flex items-center gap-1">
+                  {Array(testimonial.rating)
+                    .fill(0)
+                    .map((_, i) => (
+                      <img
+                        key={i}
+                        className="w-5"
+                        src="/rating.png"
+                        alt="Rating"
+                      />
+                    ))}
+                </div>
+                <div className="mt-4">
+                  <p className="text-[#464D61] text-[14px]">
+                    {testimonial.testimonial}
                   </p>
                 </div>
               </div>
-              <img
-                className="w-6"
-                src={testimonial.companyLogo}
-                alt="Company Logo"
-              />
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <img
+                    className="rounded-full w-[38px] h-[38px]"
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                  />
+                  <div className="flex flex-col ml-4">
+                    <p className="text-[#191F33] text-[14px]">
+                      {testimonial.name}
+                    </p>
+                    <p className="text-[#767E94] text-[12px]">
+                      {testimonial.role}
+                    </p>
+                  </div>
+                </div>
+                <img
+                  className="w-6"
+                  src={testimonial.companyLogo}
+                  alt="Company Logo"
+                />
+              </div>
             </div>
           </div>
-
-        </div>
         ))}
       </Slider>
     </div>
